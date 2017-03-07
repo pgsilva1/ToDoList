@@ -6,11 +6,37 @@
 {% block page_content %}
 
 {{ form_start(form) }}
-    {{ form_widget(form) }}
-    
-    <input class="btn btn-success"  type="submit" value="Criar" />
-{{ form_end(form) }}
 
+    {{ form_label(form.titulo, 'Título', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(form.titulo) }}
+    {{ form_widget(form.titulo, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(form.descricao, 'Descrição', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(form.descricao) }}
+    {{ form_widget(form.descricao, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(form.observacao, 'Observação', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(form.observacao) }}
+    {{ form_widget(form.observacao, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(form.situacao, 'Situação', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(form.situacao) }}
+    {{ form_widget(form.situacao, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(form.pzconclusao, 'Prazo de Conclusão', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(form.pzconclusao) }}
+    {{ form_widget(form.pzconclusao, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(form.lista, 'Lista', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(form.lista) }}
+    {{ form_widget(form.lista, {'attr': {'class': 'foo'}}) }}
+
+
+    {{ form_rest(form) }}
+
+    <input class="btn btn-success"  type="submit" value="Criar" />
     <a class="btn btn-primary" href="{{ path('tarefa_index') }}">Voltar às Tarefas</a>
+{{ form_end(form)  }}
+
 
 {% endblock %}

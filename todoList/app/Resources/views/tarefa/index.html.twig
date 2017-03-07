@@ -19,7 +19,7 @@
 
             <div class="box-body">
             <table>
-                <thead>
+                <!-- <thead>
                     <tr>
                         <th>Descrição</th>
                         <th>Observação</th>
@@ -28,15 +28,38 @@
                         <th>Criado</th>
                         <th>Atualizado</th>
                     </tr>
-                </thead>
+                </thead> -->
                 <tbody>
-                <tr>
+                    <tr>
+                    <th>Descrição</th>
                     <td>{{ tarefa.descricao }}</td>
+                    </tr>
+
+                    <tr>
+                    <th>Observação</th>
                     <td>{{ tarefa.observacao }}</td>
+                    </tr>
+
+                    <tr>
+                    <th>Situação</th>
                     <td>{% if tarefa.situacao %}Concluída{% else %}Pendente{% endif %}</td>
+                    </tr>
+
+                    <tr>
+                    <th>Prazo de Conclusão</th>
                     <td>{% if tarefa.pzconclusao %}{{ tarefa.pzconclusao|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    </tr>
+
+                    <tr>
+                    <th>Criado</th>
                     <td>{% if tarefa.criadoEm %}{{ tarefa.criadoEm|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    </tr>
+
+                    <tr>
+                    <th>Atualizado</th>
                     <td>{% if tarefa.atualizadoEm %}{{ tarefa.atualizadoEm|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    </tr>
+
                     <td>
                         <a class="btn btn-primary" href="{{ path('tarefa_show', { 'id': tarefa.id }) }}"><small>Mostrar</small></a>
                         <a class="btn btn-primary" href="{{ path('tarefa_edit', { 'id': tarefa.id }) }}"><small>Editar</small></a>
