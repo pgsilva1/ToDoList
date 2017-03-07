@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+{% block title %}Listas - TO DO List{% endblock %}
+{% block page_title %} Lista{% endblock %}
+{% block page_subtitle %} Categoria {% endblock %}
+
+
+{% block page_content %}
+
+      <div class="box box-solid box-default">
+          <div class="box-header with-border">
+                <h3 class="box-title">{{ listum.categoria }}</h3>
+            </div>
+      </div>
+
+    <a class="btn btn-primary" href="{{ path('lista_index') }}">Voltar à Lista</a>
+
+    <a class="btn btn-primary" href="{{ path('lista_edit', { 'id': listum.id }) }}">Editar</a>
+
+    {{ form_start(delete_form) }}
+        <input class="btn btn-danger" type="submit" value="Deletar">
+    {{ form_end(delete_form) }}
+
+{% endblock %}

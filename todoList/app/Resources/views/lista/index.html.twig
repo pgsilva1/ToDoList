@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+{% block title %}Listas - TO DO List{% endblock %}
+{% block page_title %} Listas {% endblock %}
+{% block page_subtitle %} Página Principal {% endblock %}
+
+{% block page_content %}
+    <!-- <h1>Listas list</h1> -->
+
+        {% for listum in listas %}
+        <div class="box box-solid box-default">
+          <div class="box-header with-border">
+              <h3 class="box-title"><a href="{{ path('tarefa_show', { 'id': listum.id }) }}">{{ listum.categoria }}</a></h3>
+              <div class="box-tools pull-right">
+                <!-- Buttons, labels, and many other things can be placed here! -->
+                <!-- Here is a label for example -->
+                <span class="label label-info"> <a href="{{ path('lista_show', { 'id': listum.id }) }}">Mostrar</a> </span>
+                <span class="label label-info"> <a href="{{ path('lista_edit', { 'id': listum.id }) }}">Editar</a></span>
+              </div><!-- /.box-tools -->
+            </div><!-- /.box-header -->
+
+      {% endfor %}
+  </div>
+
+
+  <a class="btn btn-primary" href="{{ path('lista_new') }}">Criar nova Lista</a>
+
+{% endblock %}

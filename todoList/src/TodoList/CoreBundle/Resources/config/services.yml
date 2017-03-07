@@ -1,0 +1,4 @@
+services:
+#    todo_list_core.example:
+#        class: TodoList\CoreBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

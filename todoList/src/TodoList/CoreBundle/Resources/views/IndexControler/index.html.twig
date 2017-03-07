@@ -1,0 +1,48 @@
+{% extends "::base.html.twig" %}
+{# extends 'AvanzuAdminThemeBundle:layout:base-layout.html.twig' #}
+
+{% block title %}TO DO List{% endblock %}
+
+{% block page_title %} Página Principal {% endblock %}
+{% block page_subtitle %}  {% endblock %}
+
+{% block page_content %}
+
+<div class="main-sidebar">
+  <!-- Inner sidebar -->
+  <div class="sidebar">
+
+    <!-- user panel (Optional) -->
+    <!-- /.user-panel -->
+
+    <!-- Search Form (Optional) -->
+    <!-- /.sidebar-form -->
+
+    <!-- Sidebar Menu -->
+    <ul class="sidebar-menu">
+      <li class="header">OPÇÕES</li>
+      <!-- Optionally, you can add icons to the links -->
+      <li><a href="{{ path('lista_index') }}"><span>Listas</span></a></li>
+      <li><a href="{{ path('tarefa_index') }}"><span>Tarefas</span></a></li>
+
+      <li class="treeview">
+        <a href="#"><span>Criar</span> <i class="fa fa-angle-left pull-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a href="{{ path('lista_new') }}">Lista</a></li>
+          <li><a href="{{ path('tarefa_new') }}">Tarefa</a></li>
+        </ul>
+      </li>
+    </ul><!-- /.sidebar-menu -->
+
+  </div><!-- /.sidebar -->
+</div><!-- /.main-sidebar -->
+<p>Aplicação teste em Synfony 2.8, para gerenciar uma lista de afazeres (To Do List).</p>
+
+<p>Cada tarefa lançada deve possuir as seguintes informações: identificador ou código,
+descrição da tarefa, anotações ou observações, nome da lista a qual pertence, prazo de conclusão,
+situação (pendente e concluída), data de criação e atualização.</p>
+
+<p>A aplicação deve utilizar obrigatoriamente para o layout o framework Boostrap 3.</p>
+
+
+{% endblock %}

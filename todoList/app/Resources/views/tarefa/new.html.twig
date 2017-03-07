@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+{% block title %}Tarefas - TODO List{% endblock %}
+{% block page_title %} Tarefas {% endblock %}
+{% block page_subtitle %} Criação {% endblock %}
+
+{% block page_content %}
+
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    
+    <input class="btn btn-success"  type="submit" value="Criar" />
+{{ form_end(form) }}
+
+    <a class="btn btn-primary" href="{{ path('tarefa_index') }}">Voltar às Tarefas</a>
+
+{% endblock %}

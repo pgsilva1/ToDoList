@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+{% block title %}Tarefas - TO DO List{% endblock %}
+
+{% block page_title %} Tarefas {% endblock %}
+{% block page_subtitle %} Edição {% endblock %}
+
+{% block page_content %}
+
+    {{ form_start(edit_form) }}
+        {{ form_widget(edit_form) }}
+        <input class="btn btn-primary" type="submit" value="Salvar" />
+    {{ form_end(edit_form) }}
+
+
+
+    <a class="btn btn-primary" href="{{ path('tarefa_index') }}">Voltar às Tarefas</a>
+
+    {{ form_start(delete_form) }}
+        <input class="btn btn-danger" type="submit" value="Deletar">
+    {{ form_end(delete_form) }}
+
+{% endblock %}

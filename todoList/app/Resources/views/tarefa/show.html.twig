@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+{% block title %}Tarefas - TODO List{% endblock %}
+{% block page_title %} Tarefas {% endblock %}
+{% block page_subtitle %} {{ tarefa.titulo }} {% endblock %}
+
+{% block page_content %}
+<div class="box box-primary">
+    <table>
+        <tbody>
+            <tr>
+                <th>Titulo: </th>
+                <td>{{ tarefa.titulo }}</td>
+            </tr>
+            <tr>
+                <th>Lista: </th>
+                <td>{{ tarefa.lista }}</td>
+            </tr>
+
+            <tr>
+                <th>Descrição: </th>
+                <td>{{ tarefa.descricao }}</td>
+            </tr>
+            <tr>
+                <th>Observação: </th>
+                <td>{{ tarefa.observacao }}</td>
+            </tr>
+            <tr>
+                <th>Situação: </th>
+                <td>{% if tarefa.situacao %}Concluída{% else %}Pendente{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Prazo de Conclusão: </th>
+                <td>{% if tarefa.pzconclusao %}{{ tarefa.pzconclusao|date('d/m/Y H:i:s') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Criado: </th>
+                <td>{% if tarefa.criadoEm %}{{ tarefa.criadoEm|date('d/m/Y H:i:s') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Atualizado: </th>
+                <td>{% if tarefa.atualizadoEm %}{{ tarefa.atualizadoEm|date('d/m/Y H:i:s') }}{% endif %}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <a class="btn btn-primary" href="{{ path('tarefa_index') }}">Voltar às Tarefas</a>
+
+    <a class="btn btn-primary" href="{{ path('tarefa_edit', { 'id': tarefa.id }) }}">Editar</a>
+
+    {{ form_start(delete_form) }}
+        <input class="btn btn-danger" type="submit" value="Deletar">
+    {{ form_end(delete_form) }}
+
+{% endblock %}
