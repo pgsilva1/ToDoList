@@ -7,7 +7,35 @@
 {% block page_content %}
 
     {{ form_start(edit_form) }}
-        {{ form_widget(edit_form) }}
+
+    {{ form_label(edit_form.titulo, 'Título', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(edit_form.titulo) }}
+    {{ form_widget(edit_form.titulo, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(edit_form.descricao, 'Descrição', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(edit_form.descricao) }}
+    {{ form_widget(edit_form.descricao, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(edit_form.observacao, 'Observação', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(edit_form.observacao) }}
+    {{ form_widget(edit_form.observacao, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(edit_form.situacao, 'Situação', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(edit_form.situacao) }}
+    {{ form_widget(edit_form.situacao, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(edit_form.pzconclusao, 'Prazo de Conclusão', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(edit_form.pzconclusao) }}
+    {{ form_widget(edit_form.pzconclusao, {'attr': {'class': 'foo'}}) }}
+
+    {{ form_label(edit_form.lista, 'Lista', {'label_attr': {'class': 'foo'}}) }}
+    {{ form_errors(edit_form.lista) }}
+    {{ form_widget(edit_form.lista, {'attr': {'class': 'foo'}}) }}
+
+
+    {{ form_rest(edit_form) }}
+
+
         <input class="btn btn-primary" type="submit" value="Salvar" />
     {{ form_end(edit_form) }}
 
