@@ -9,7 +9,7 @@
         {% for listum in listas %}
         <div class="box box-solid box-default">
           <div class="box-header with-border">
-              <h3 class="box-title"><a href="{{ path('tarefa_show', { 'id': listum.id }) }}">{{ listum.categoria }}</a></h3>
+              <h3 class="box-title"><a href="{{ path('lista_show', { 'id': listum.id }) }}">{{ listum.categoria }}</a></h3>
               <div class="box-tools pull-right">
                 <!-- Buttons, labels, and many other things can be placed here! -->
                 <!-- Here is a label for example -->
@@ -17,9 +17,9 @@
                 <span class="label label-info"> <a href="{{ path('lista_edit', { 'id': listum.id }) }}">Editar</a></span>
               </div><!-- /.box-tools -->
             </div><!-- /.box-header -->
-
+          </div>
       {% endfor %}
-  </div>
+
 
 
   <a class="btn btn-primary" href="{{ path('lista_new') }}">Criar nova Lista</a>

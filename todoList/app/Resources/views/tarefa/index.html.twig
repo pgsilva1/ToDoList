@@ -42,22 +42,22 @@
 
                     <tr>
                     <th>Situação</th>
-                    <td>{% if tarefa.situacao %}Concluída{% else %}Pendente{% endif %}</td>
+                    <td>{{ tarefa.situacao|situacao_show }} </td>
                     </tr>
 
                     <tr>
                     <th>Prazo de Conclusão</th>
-                    <td>{% if tarefa.pzconclusao %}{{ tarefa.pzconclusao|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    <td>{% if tarefa.pzconclusao %}{{ tarefa.pzconclusao|date('d/m/Y H:i:s') }}{% endif %}</td>
                     </tr>
 
                     <tr>
                     <th>Criado</th>
-                    <td>{% if tarefa.criadoEm %}{{ tarefa.criadoEm|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    <td>{% if tarefa.criadoEm %}{{ tarefa.criadoEm|date('d/m/Y H:i:s') }}{% endif %}</td>
                     </tr>
 
                     <tr>
                     <th>Atualizado</th>
-                    <td>{% if tarefa.atualizadoEm %}{{ tarefa.atualizadoEm|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    <td>{% if tarefa.atualizadoEm %}{{ tarefa.atualizadoEm|date('d/m/Y H:i:s') }}{% endif %}</td>
                     </tr>
 
                     <td>

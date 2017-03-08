@@ -2136,7 +2136,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>58be9f6746b9f3.98409411</argument>
+            <argument>58c021d6d2efd1.06668902</argument>
           </service>
         </argument>
       </argument>
@@ -2265,7 +2265,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>58be9f6746b9f3.98409411</argument>
+            <argument>58c021d6d2efd1.06668902</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2326,6 +2326,13 @@
           <argument key="thousands_separator">,</argument>
         </argument>
       </argument>
+      <call method="addExtension">
+        <argument type="service">
+          <service class="TodoList\CoreBundle\Twig\AppExtension" public="false">
+            <tag name="twig.extension"/>
+          </service>
+        </argument>
+      </call>
       <call method="addExtension">
         <argument type="service">
           <service class="Symfony\Bridge\Twig\Extension\LogoutUrlExtension" public="false">

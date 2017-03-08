@@ -49,7 +49,13 @@ class TarefaController extends Controller
             $em->persist($tarefa);
             $em->flush($tarefa);
 
-            return $this->redirectToRoute('tarefa_show', array('id' => $tarefa->getId()));
+            $request->getSession()
+            ->getFlashBag()
+            ->add('success', 'Tarefa criada com sucesso!');
+
+            $url = $this->generateUrl('tarefa_show', array('id' => $tarefa->getId()));
+
+            return $this->redirect($url);
         }
 
         return $this->render('tarefa/new.html.twig', array(

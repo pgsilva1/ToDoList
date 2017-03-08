@@ -24,56 +24,56 @@ class __TwigTemplate_987ad838e7bdae6bcfd3cf081f04e61a0e4b3dc14eb1cb002d551e408c3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_35e1b5cc4cbd1e4c171783e8ecf13dc5e7aa4664c9e1a8ee86a9014550632ea4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_35e1b5cc4cbd1e4c171783e8ecf13dc5e7aa4664c9e1a8ee86a9014550632ea4->enter($__internal_35e1b5cc4cbd1e4c171783e8ecf13dc5e7aa4664c9e1a8ee86a9014550632ea4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "lista/index.html.twig"));
+        $__internal_1ba5c05bde2fb51587b9c9c0b72987028d13f616d2ae7b0c15c89705dcde58db = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1ba5c05bde2fb51587b9c9c0b72987028d13f616d2ae7b0c15c89705dcde58db->enter($__internal_1ba5c05bde2fb51587b9c9c0b72987028d13f616d2ae7b0c15c89705dcde58db_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "lista/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_35e1b5cc4cbd1e4c171783e8ecf13dc5e7aa4664c9e1a8ee86a9014550632ea4->leave($__internal_35e1b5cc4cbd1e4c171783e8ecf13dc5e7aa4664c9e1a8ee86a9014550632ea4_prof);
+        $__internal_1ba5c05bde2fb51587b9c9c0b72987028d13f616d2ae7b0c15c89705dcde58db->leave($__internal_1ba5c05bde2fb51587b9c9c0b72987028d13f616d2ae7b0c15c89705dcde58db_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_757e770a544f96eca9bd8869c7ad9722831d0ad581218f9fca59626a92ca5fa1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_757e770a544f96eca9bd8869c7ad9722831d0ad581218f9fca59626a92ca5fa1->enter($__internal_757e770a544f96eca9bd8869c7ad9722831d0ad581218f9fca59626a92ca5fa1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_01c11bbbac3d52e7b57fcda3b02f94d45e319e631f89c997917267b0a1f6bd45 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_01c11bbbac3d52e7b57fcda3b02f94d45e319e631f89c997917267b0a1f6bd45->enter($__internal_01c11bbbac3d52e7b57fcda3b02f94d45e319e631f89c997917267b0a1f6bd45_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Listas - TO DO List";
         
-        $__internal_757e770a544f96eca9bd8869c7ad9722831d0ad581218f9fca59626a92ca5fa1->leave($__internal_757e770a544f96eca9bd8869c7ad9722831d0ad581218f9fca59626a92ca5fa1_prof);
+        $__internal_01c11bbbac3d52e7b57fcda3b02f94d45e319e631f89c997917267b0a1f6bd45->leave($__internal_01c11bbbac3d52e7b57fcda3b02f94d45e319e631f89c997917267b0a1f6bd45_prof);
 
     }
 
     // line 3
     public function block_page_title($context, array $blocks = array())
     {
-        $__internal_c1af698a108834b40e2b11bcdbb0a15fdb485bdb6a2044627aee7f90518ec3d8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c1af698a108834b40e2b11bcdbb0a15fdb485bdb6a2044627aee7f90518ec3d8->enter($__internal_c1af698a108834b40e2b11bcdbb0a15fdb485bdb6a2044627aee7f90518ec3d8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_title"));
+        $__internal_e7ce80bda920ec7e4da528fb6dca7065ce8f8c8dbc61b7feb1b9a753e323a8f3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e7ce80bda920ec7e4da528fb6dca7065ce8f8c8dbc61b7feb1b9a753e323a8f3->enter($__internal_e7ce80bda920ec7e4da528fb6dca7065ce8f8c8dbc61b7feb1b9a753e323a8f3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_title"));
 
         echo " Listas ";
         
-        $__internal_c1af698a108834b40e2b11bcdbb0a15fdb485bdb6a2044627aee7f90518ec3d8->leave($__internal_c1af698a108834b40e2b11bcdbb0a15fdb485bdb6a2044627aee7f90518ec3d8_prof);
+        $__internal_e7ce80bda920ec7e4da528fb6dca7065ce8f8c8dbc61b7feb1b9a753e323a8f3->leave($__internal_e7ce80bda920ec7e4da528fb6dca7065ce8f8c8dbc61b7feb1b9a753e323a8f3_prof);
 
     }
 
     // line 4
     public function block_page_subtitle($context, array $blocks = array())
     {
-        $__internal_19dce7eceb3b7a2c96555f3015df01c5e94114281b8abbaf0b905be7f71bde56 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_19dce7eceb3b7a2c96555f3015df01c5e94114281b8abbaf0b905be7f71bde56->enter($__internal_19dce7eceb3b7a2c96555f3015df01c5e94114281b8abbaf0b905be7f71bde56_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_subtitle"));
+        $__internal_911d4b47da5830546340b1cf4a354387e8bb66480d65265c6fe02bf563ac9cdc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_911d4b47da5830546340b1cf4a354387e8bb66480d65265c6fe02bf563ac9cdc->enter($__internal_911d4b47da5830546340b1cf4a354387e8bb66480d65265c6fe02bf563ac9cdc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_subtitle"));
 
         echo " Página Principal ";
         
-        $__internal_19dce7eceb3b7a2c96555f3015df01c5e94114281b8abbaf0b905be7f71bde56->leave($__internal_19dce7eceb3b7a2c96555f3015df01c5e94114281b8abbaf0b905be7f71bde56_prof);
+        $__internal_911d4b47da5830546340b1cf4a354387e8bb66480d65265c6fe02bf563ac9cdc->leave($__internal_911d4b47da5830546340b1cf4a354387e8bb66480d65265c6fe02bf563ac9cdc_prof);
 
     }
 
     // line 6
     public function block_page_content($context, array $blocks = array())
     {
-        $__internal_ec2c6aa44ccc762864c1c15322295fa4cb721744e169b20ada9b409e7393067d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ec2c6aa44ccc762864c1c15322295fa4cb721744e169b20ada9b409e7393067d->enter($__internal_ec2c6aa44ccc762864c1c15322295fa4cb721744e169b20ada9b409e7393067d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_content"));
+        $__internal_0a7036291b244c9f1612b73320ffa02d356205210335ffa374a0967341c7e907 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0a7036291b244c9f1612b73320ffa02d356205210335ffa374a0967341c7e907->enter($__internal_0a7036291b244c9f1612b73320ffa02d356205210335ffa374a0967341c7e907_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_content"));
 
         // line 7
         echo "    <!-- <h1>Listas list</h1> -->
@@ -88,7 +88,7 @@ class __TwigTemplate_987ad838e7bdae6bcfd3cf081f04e61a0e4b3dc14eb1cb002d551e408c3
           <div class=\"box-header with-border\">
               <h3 class=\"box-title\"><a href=\"";
             // line 12
-            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tarefa_show", array("id" => $this->getAttribute($context["listum"], "id", array()))), "html", null, true);
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("lista_show", array("id" => $this->getAttribute($context["listum"], "id", array()))), "html", null, true);
             echo "\">";
             echo twig_escape_filter($this->env, $this->getAttribute($context["listum"], "categoria", array()), "html", null, true);
             echo "</a></h3>
@@ -105,14 +105,14 @@ class __TwigTemplate_987ad838e7bdae6bcfd3cf081f04e61a0e4b3dc14eb1cb002d551e408c3
             echo "\">Editar</a></span>
               </div><!-- /.box-tools -->
             </div><!-- /.box-header -->
-
+          </div>
       ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['listum'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 22
-        echo "  </div>
+        echo "
 
 
   <a class=\"btn btn-primary\" href=\"";
@@ -122,7 +122,7 @@ class __TwigTemplate_987ad838e7bdae6bcfd3cf081f04e61a0e4b3dc14eb1cb002d551e408c3
 
 ";
         
-        $__internal_ec2c6aa44ccc762864c1c15322295fa4cb721744e169b20ada9b409e7393067d->leave($__internal_ec2c6aa44ccc762864c1c15322295fa4cb721744e169b20ada9b409e7393067d_prof);
+        $__internal_0a7036291b244c9f1612b73320ffa02d356205210335ffa374a0967341c7e907->leave($__internal_0a7036291b244c9f1612b73320ffa02d356205210335ffa374a0967341c7e907_prof);
 
     }
 
@@ -162,7 +162,7 @@ class __TwigTemplate_987ad838e7bdae6bcfd3cf081f04e61a0e4b3dc14eb1cb002d551e408c3
         {% for listum in listas %}
         <div class=\"box box-solid box-default\">
           <div class=\"box-header with-border\">
-              <h3 class=\"box-title\"><a href=\"{{ path('tarefa_show', { 'id': listum.id }) }}\">{{ listum.categoria }}</a></h3>
+              <h3 class=\"box-title\"><a href=\"{{ path('lista_show', { 'id': listum.id }) }}\">{{ listum.categoria }}</a></h3>
               <div class=\"box-tools pull-right\">
                 <!-- Buttons, labels, and many other things can be placed here! -->
                 <!-- Here is a label for example -->
@@ -170,9 +170,9 @@ class __TwigTemplate_987ad838e7bdae6bcfd3cf081f04e61a0e4b3dc14eb1cb002d551e408c3
                 <span class=\"label label-info\"> <a href=\"{{ path('lista_edit', { 'id': listum.id }) }}\">Editar</a></span>
               </div><!-- /.box-tools -->
             </div><!-- /.box-header -->
-
+          </div>
       {% endfor %}
-  </div>
+
 
 
   <a class=\"btn btn-primary\" href=\"{{ path('lista_new') }}\">Criar nova Lista</a>

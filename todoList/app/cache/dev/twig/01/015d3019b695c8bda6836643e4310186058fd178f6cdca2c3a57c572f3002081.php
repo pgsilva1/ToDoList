@@ -24,56 +24,56 @@ class __TwigTemplate_0f460c0afdd131fec9bf6de77a1a96f46264b08292c3e097f50932ff66c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_de4533b9d07a3a5545eb2a013b83d02ebc467a6926e45a0041b0f9532b273a23 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_de4533b9d07a3a5545eb2a013b83d02ebc467a6926e45a0041b0f9532b273a23->enter($__internal_de4533b9d07a3a5545eb2a013b83d02ebc467a6926e45a0041b0f9532b273a23_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "tarefa/index.html.twig"));
+        $__internal_f13c1a9218ca8b9b3fd82a2b6568930e5cfe06352c8baa172bc740618d458ef2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f13c1a9218ca8b9b3fd82a2b6568930e5cfe06352c8baa172bc740618d458ef2->enter($__internal_f13c1a9218ca8b9b3fd82a2b6568930e5cfe06352c8baa172bc740618d458ef2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "tarefa/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_de4533b9d07a3a5545eb2a013b83d02ebc467a6926e45a0041b0f9532b273a23->leave($__internal_de4533b9d07a3a5545eb2a013b83d02ebc467a6926e45a0041b0f9532b273a23_prof);
+        $__internal_f13c1a9218ca8b9b3fd82a2b6568930e5cfe06352c8baa172bc740618d458ef2->leave($__internal_f13c1a9218ca8b9b3fd82a2b6568930e5cfe06352c8baa172bc740618d458ef2_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_c14b274c0d9be374be5d2a38bca0a8c11b5cf0854f171d610a2e77c333ceee21 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c14b274c0d9be374be5d2a38bca0a8c11b5cf0854f171d610a2e77c333ceee21->enter($__internal_c14b274c0d9be374be5d2a38bca0a8c11b5cf0854f171d610a2e77c333ceee21_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_d4f3c30ba5b9b37b5a6431a8d0edfc21967238454edd4cd557b86f43a6260f2e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d4f3c30ba5b9b37b5a6431a8d0edfc21967238454edd4cd557b86f43a6260f2e->enter($__internal_d4f3c30ba5b9b37b5a6431a8d0edfc21967238454edd4cd557b86f43a6260f2e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Tarefas - TODO List";
         
-        $__internal_c14b274c0d9be374be5d2a38bca0a8c11b5cf0854f171d610a2e77c333ceee21->leave($__internal_c14b274c0d9be374be5d2a38bca0a8c11b5cf0854f171d610a2e77c333ceee21_prof);
+        $__internal_d4f3c30ba5b9b37b5a6431a8d0edfc21967238454edd4cd557b86f43a6260f2e->leave($__internal_d4f3c30ba5b9b37b5a6431a8d0edfc21967238454edd4cd557b86f43a6260f2e_prof);
 
     }
 
     // line 3
     public function block_page_title($context, array $blocks = array())
     {
-        $__internal_adf83d5b9a6e778b39fe22b4e291a2bf0ee96d0f3003ec452fbaf98e282d785c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_adf83d5b9a6e778b39fe22b4e291a2bf0ee96d0f3003ec452fbaf98e282d785c->enter($__internal_adf83d5b9a6e778b39fe22b4e291a2bf0ee96d0f3003ec452fbaf98e282d785c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_title"));
+        $__internal_9d0360a6f5f609b744ed35a8f8991bf911c15701c3dc0eee6df29139cc1493f4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9d0360a6f5f609b744ed35a8f8991bf911c15701c3dc0eee6df29139cc1493f4->enter($__internal_9d0360a6f5f609b744ed35a8f8991bf911c15701c3dc0eee6df29139cc1493f4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_title"));
 
         echo " Tarefas ";
         
-        $__internal_adf83d5b9a6e778b39fe22b4e291a2bf0ee96d0f3003ec452fbaf98e282d785c->leave($__internal_adf83d5b9a6e778b39fe22b4e291a2bf0ee96d0f3003ec452fbaf98e282d785c_prof);
+        $__internal_9d0360a6f5f609b744ed35a8f8991bf911c15701c3dc0eee6df29139cc1493f4->leave($__internal_9d0360a6f5f609b744ed35a8f8991bf911c15701c3dc0eee6df29139cc1493f4_prof);
 
     }
 
     // line 4
     public function block_page_subtitle($context, array $blocks = array())
     {
-        $__internal_a0ee9995f8e7ac5059aeca8bbfd6a87e304f419fe34f327a9555403ed4f7d7bb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a0ee9995f8e7ac5059aeca8bbfd6a87e304f419fe34f327a9555403ed4f7d7bb->enter($__internal_a0ee9995f8e7ac5059aeca8bbfd6a87e304f419fe34f327a9555403ed4f7d7bb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_subtitle"));
+        $__internal_554a1d6b345d07ed3394157337e95acf39550125c4d14e22fbe7eac3d43babee = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_554a1d6b345d07ed3394157337e95acf39550125c4d14e22fbe7eac3d43babee->enter($__internal_554a1d6b345d07ed3394157337e95acf39550125c4d14e22fbe7eac3d43babee_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_subtitle"));
 
         echo " Página Principal ";
         
-        $__internal_a0ee9995f8e7ac5059aeca8bbfd6a87e304f419fe34f327a9555403ed4f7d7bb->leave($__internal_a0ee9995f8e7ac5059aeca8bbfd6a87e304f419fe34f327a9555403ed4f7d7bb_prof);
+        $__internal_554a1d6b345d07ed3394157337e95acf39550125c4d14e22fbe7eac3d43babee->leave($__internal_554a1d6b345d07ed3394157337e95acf39550125c4d14e22fbe7eac3d43babee_prof);
 
     }
 
     // line 6
     public function block_page_content($context, array $blocks = array())
     {
-        $__internal_cd0371938f91d766f9fcd2bbcae44d1db236dba2edec39322c9454de3f00958c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_cd0371938f91d766f9fcd2bbcae44d1db236dba2edec39322c9454de3f00958c->enter($__internal_cd0371938f91d766f9fcd2bbcae44d1db236dba2edec39322c9454de3f00958c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_content"));
+        $__internal_b623ee795a103a11f1bef8688dcdee71a0c6004806bbfb6f155a9e54e99496bd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b623ee795a103a11f1bef8688dcdee71a0c6004806bbfb6f155a9e54e99496bd->enter($__internal_b623ee795a103a11f1bef8688dcdee71a0c6004806bbfb6f155a9e54e99496bd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_content"));
 
         // line 7
         echo "    <!-- <h1>Tarefas list</h1> -->
@@ -135,12 +135,8 @@ class __TwigTemplate_0f460c0afdd131fec9bf6de77a1a96f46264b08292c3e097f50932ff66c
                     <th>Situação</th>
                     <td>";
             // line 45
-            if ($this->getAttribute($context["tarefa"], "situacao", array())) {
-                echo "Concluída";
-            } else {
-                echo "Pendente";
-            }
-            echo "</td>
+            echo twig_escape_filter($this->env, twig_replace_filter($this->getAttribute($context["tarefa"], "situacao", array()), array("0" => "Concluída", "1" => "Pendente")), "html", null, true);
+            echo " </td>
                     </tr>
 
                     <tr>
@@ -148,7 +144,7 @@ class __TwigTemplate_0f460c0afdd131fec9bf6de77a1a96f46264b08292c3e097f50932ff66c
                     <td>";
             // line 50
             if ($this->getAttribute($context["tarefa"], "pzconclusao", array())) {
-                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["tarefa"], "pzconclusao", array()), "Y-m-d H:i:s"), "html", null, true);
+                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["tarefa"], "pzconclusao", array()), "d/m/Y H:i:s"), "html", null, true);
             }
             echo "</td>
                     </tr>
@@ -158,7 +154,7 @@ class __TwigTemplate_0f460c0afdd131fec9bf6de77a1a96f46264b08292c3e097f50932ff66c
                     <td>";
             // line 55
             if ($this->getAttribute($context["tarefa"], "criadoEm", array())) {
-                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["tarefa"], "criadoEm", array()), "Y-m-d H:i:s"), "html", null, true);
+                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["tarefa"], "criadoEm", array()), "d/m/Y H:i:s"), "html", null, true);
             }
             echo "</td>
                     </tr>
@@ -168,7 +164,7 @@ class __TwigTemplate_0f460c0afdd131fec9bf6de77a1a96f46264b08292c3e097f50932ff66c
                     <td>";
             // line 60
             if ($this->getAttribute($context["tarefa"], "atualizadoEm", array())) {
-                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["tarefa"], "atualizadoEm", array()), "Y-m-d H:i:s"), "html", null, true);
+                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["tarefa"], "atualizadoEm", array()), "d/m/Y H:i:s"), "html", null, true);
             }
             echo "</td>
                     </tr>
@@ -206,7 +202,7 @@ class __TwigTemplate_0f460c0afdd131fec9bf6de77a1a96f46264b08292c3e097f50932ff66c
 
 ";
         
-        $__internal_cd0371938f91d766f9fcd2bbcae44d1db236dba2edec39322c9454de3f00958c->leave($__internal_cd0371938f91d766f9fcd2bbcae44d1db236dba2edec39322c9454de3f00958c_prof);
+        $__internal_b623ee795a103a11f1bef8688dcdee71a0c6004806bbfb6f155a9e54e99496bd->leave($__internal_b623ee795a103a11f1bef8688dcdee71a0c6004806bbfb6f155a9e54e99496bd_prof);
 
     }
 
@@ -222,7 +218,7 @@ class __TwigTemplate_0f460c0afdd131fec9bf6de77a1a96f46264b08292c3e097f50932ff66c
 
     public function getDebugInfo()
     {
-        return array (  202 => 76,  199 => 75,  183 => 65,  179 => 64,  170 => 60,  160 => 55,  150 => 50,  138 => 45,  130 => 40,  122 => 35,  100 => 16,  91 => 12,  87 => 10,  83 => 9,  79 => 7,  73 => 6,  61 => 4,  49 => 3,  37 => 2,  11 => 1,);
+        return array (  198 => 76,  195 => 75,  179 => 65,  175 => 64,  166 => 60,  156 => 55,  146 => 50,  138 => 45,  130 => 40,  122 => 35,  100 => 16,  91 => 12,  87 => 10,  83 => 9,  79 => 7,  73 => 6,  61 => 4,  49 => 3,  37 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -279,22 +275,22 @@ class __TwigTemplate_0f460c0afdd131fec9bf6de77a1a96f46264b08292c3e097f50932ff66c
 
                     <tr>
                     <th>Situação</th>
-                    <td>{% if tarefa.situacao %}Concluída{% else %}Pendente{% endif %}</td>
+                    <td>{{ tarefa.situacao|replace({'0': \"Concluída\", '1': \"Pendente\"}) }} </td>
                     </tr>
 
                     <tr>
                     <th>Prazo de Conclusão</th>
-                    <td>{% if tarefa.pzconclusao %}{{ tarefa.pzconclusao|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    <td>{% if tarefa.pzconclusao %}{{ tarefa.pzconclusao|date('d/m/Y H:i:s') }}{% endif %}</td>
                     </tr>
 
                     <tr>
                     <th>Criado</th>
-                    <td>{% if tarefa.criadoEm %}{{ tarefa.criadoEm|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    <td>{% if tarefa.criadoEm %}{{ tarefa.criadoEm|date('d/m/Y H:i:s') }}{% endif %}</td>
                     </tr>
 
                     <tr>
                     <th>Atualizado</th>
-                    <td>{% if tarefa.atualizadoEm %}{{ tarefa.atualizadoEm|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    <td>{% if tarefa.atualizadoEm %}{{ tarefa.atualizadoEm|date('d/m/Y H:i:s') }}{% endif %}</td>
                     </tr>
 
                     <td>
