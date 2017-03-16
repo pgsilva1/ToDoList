@@ -62,7 +62,7 @@ class Tarefa extends Timestampable
     /**
      * @var Lista
      *
-     * @ORM\ManyToOne(targetEntity="Lista", inversedBy="tarefas")
+     * @ORM\ManyToOne(targetEntity="Lista", inversedBy="tarefa")
      * @ORM\JoinColumn(name="lista_id", referencedColumnName="id", nullable=false, onDelete="CASCADE")
      * @Assert\NotBlank
      */

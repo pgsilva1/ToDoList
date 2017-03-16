@@ -10,4 +10,4 @@ parameters:
     mailer_user: null
     mailer_password: null
     secret: aaa1741a46825381dc8763da474c9564e7cdebe0
-    admin_skin: skin-blue
+    admin_skin: skin-green
