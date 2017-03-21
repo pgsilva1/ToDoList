@@ -24,56 +24,56 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_965ddce9ec5a1165cd7092a95381778d44e12e321e15c492b3b04ba3f30cefc1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_965ddce9ec5a1165cd7092a95381778d44e12e321e15c492b3b04ba3f30cefc1->enter($__internal_965ddce9ec5a1165cd7092a95381778d44e12e321e15c492b3b04ba3f30cefc1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "tarefa/index.html.twig"));
+        $__internal_7ba5add4c3925d13ddee0d062fad591e568f906f2db104c74a2367d203f33788 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7ba5add4c3925d13ddee0d062fad591e568f906f2db104c74a2367d203f33788->enter($__internal_7ba5add4c3925d13ddee0d062fad591e568f906f2db104c74a2367d203f33788_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "tarefa/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_965ddce9ec5a1165cd7092a95381778d44e12e321e15c492b3b04ba3f30cefc1->leave($__internal_965ddce9ec5a1165cd7092a95381778d44e12e321e15c492b3b04ba3f30cefc1_prof);
+        $__internal_7ba5add4c3925d13ddee0d062fad591e568f906f2db104c74a2367d203f33788->leave($__internal_7ba5add4c3925d13ddee0d062fad591e568f906f2db104c74a2367d203f33788_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_bf1b9375e05eda1df33817e56d7d34831df3111153a3cb05ebe77633d5b4d27d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_bf1b9375e05eda1df33817e56d7d34831df3111153a3cb05ebe77633d5b4d27d->enter($__internal_bf1b9375e05eda1df33817e56d7d34831df3111153a3cb05ebe77633d5b4d27d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_d956a403621e249e8d14ab0f1055c4500269b5943c14a7aadef6b5439dabed3f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d956a403621e249e8d14ab0f1055c4500269b5943c14a7aadef6b5439dabed3f->enter($__internal_d956a403621e249e8d14ab0f1055c4500269b5943c14a7aadef6b5439dabed3f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Tarefas - TODO List";
         
-        $__internal_bf1b9375e05eda1df33817e56d7d34831df3111153a3cb05ebe77633d5b4d27d->leave($__internal_bf1b9375e05eda1df33817e56d7d34831df3111153a3cb05ebe77633d5b4d27d_prof);
+        $__internal_d956a403621e249e8d14ab0f1055c4500269b5943c14a7aadef6b5439dabed3f->leave($__internal_d956a403621e249e8d14ab0f1055c4500269b5943c14a7aadef6b5439dabed3f_prof);
 
     }
 
     // line 3
     public function block_page_title($context, array $blocks = array())
     {
-        $__internal_72f188a9178e1087fe6a4a1dce11bc7c3b1aeeb0bd775a15127d241548ce890d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_72f188a9178e1087fe6a4a1dce11bc7c3b1aeeb0bd775a15127d241548ce890d->enter($__internal_72f188a9178e1087fe6a4a1dce11bc7c3b1aeeb0bd775a15127d241548ce890d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_title"));
+        $__internal_e706bee10d0633bbc55bcab8d1b98e1d8dcf1ee5e1769af611067e2f481b1cd1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e706bee10d0633bbc55bcab8d1b98e1d8dcf1ee5e1769af611067e2f481b1cd1->enter($__internal_e706bee10d0633bbc55bcab8d1b98e1d8dcf1ee5e1769af611067e2f481b1cd1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_title"));
 
         echo " Tarefas ";
         
-        $__internal_72f188a9178e1087fe6a4a1dce11bc7c3b1aeeb0bd775a15127d241548ce890d->leave($__internal_72f188a9178e1087fe6a4a1dce11bc7c3b1aeeb0bd775a15127d241548ce890d_prof);
+        $__internal_e706bee10d0633bbc55bcab8d1b98e1d8dcf1ee5e1769af611067e2f481b1cd1->leave($__internal_e706bee10d0633bbc55bcab8d1b98e1d8dcf1ee5e1769af611067e2f481b1cd1_prof);
 
     }
 
     // line 4
     public function block_page_subtitle($context, array $blocks = array())
     {
-        $__internal_4591ad73f35d245b57c8ac9bbc2dbd1e79a12ade7b73a1620e81155e4bd30fba = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4591ad73f35d245b57c8ac9bbc2dbd1e79a12ade7b73a1620e81155e4bd30fba->enter($__internal_4591ad73f35d245b57c8ac9bbc2dbd1e79a12ade7b73a1620e81155e4bd30fba_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_subtitle"));
+        $__internal_1dd963538a3e6fe4f1cf72d42c3cd99a1117b86e57851739e6ac1c943577321b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1dd963538a3e6fe4f1cf72d42c3cd99a1117b86e57851739e6ac1c943577321b->enter($__internal_1dd963538a3e6fe4f1cf72d42c3cd99a1117b86e57851739e6ac1c943577321b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_subtitle"));
 
         echo " Página Principal ";
         
-        $__internal_4591ad73f35d245b57c8ac9bbc2dbd1e79a12ade7b73a1620e81155e4bd30fba->leave($__internal_4591ad73f35d245b57c8ac9bbc2dbd1e79a12ade7b73a1620e81155e4bd30fba_prof);
+        $__internal_1dd963538a3e6fe4f1cf72d42c3cd99a1117b86e57851739e6ac1c943577321b->leave($__internal_1dd963538a3e6fe4f1cf72d42c3cd99a1117b86e57851739e6ac1c943577321b_prof);
 
     }
 
     // line 6
     public function block_page_content($context, array $blocks = array())
     {
-        $__internal_5d40ba3ee6815c8a1fb8934ccd1d8541e6d3bef7c79cf3ce669804d23412f183 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5d40ba3ee6815c8a1fb8934ccd1d8541e6d3bef7c79cf3ce669804d23412f183->enter($__internal_5d40ba3ee6815c8a1fb8934ccd1d8541e6d3bef7c79cf3ce669804d23412f183_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_content"));
+        $__internal_7e40e0a355aed831cbf888ec07d3302f650921ce6bd396cf79cce2b3a6348104 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7e40e0a355aed831cbf888ec07d3302f650921ce6bd396cf79cce2b3a6348104->enter($__internal_7e40e0a355aed831cbf888ec07d3302f650921ce6bd396cf79cce2b3a6348104_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page_content"));
 
         // line 7
         echo "
@@ -105,10 +105,16 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
             // line 27
             echo twig_escape_filter($this->env, $this->getAttribute($context["tarefa"], "titulo", array()), "html", null, true);
             echo "</span>
-                <small class=\"label label-info\"><i class=\"fa fa-clock-o\"></i> 4 hours</small>
+                <!-- <small class=\"label label-info\"><i class=\"fa fa-clock-o\"></i> 4 hours</small> -->
                 <div class=\"tools\">
-                  <i class=\"fa fa-edit\"></i>
-                  <i class=\"fa fa-trash-o\"></i>
+                  <i class=\"fa fa-edit\" ><a href=\"";
+            // line 30
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tarefa_show", array("id" => $this->getAttribute($context["tarefa"], "id", array()))), "html", null, true);
+            echo "\">  </a><small>Editar</small> </i>
+                  <i class=\"fa fa-eye\"><a href=\"";
+            // line 31
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tarefa_edit", array("id" => $this->getAttribute($context["tarefa"], "id", array()))), "html", null, true);
+            echo "\"> </a><small>Mostrar</small> </i>
                 </div>
               </li>
             ";
@@ -122,24 +128,20 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
         </div>
         <!-- /.box-body -->
         <div class=\"box-footer clearfix no-border\">
-          <button type=\"button\" class=\"btn btn-default pull-right\" href=\"";
-        // line 40
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tarefa_new");
-        echo "\"><i class=\"fa fa-plus\"></i> Add item</button>
+          <button type=\"button\" class=\"btn btn-default pull-right\"><i class=\"fa fa-plus\"></i> Add item</button>
         </div>
       </div>
     <!-- <h1>Tarefas list</h1> -->
-
         ";
-        // line 45
+        // line 44
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["tarefas"] ?? $this->getContext($context, "tarefas")));
         foreach ($context['_seq'] as $context["_key"] => $context["tarefa"]) {
-            // line 46
+            // line 45
             echo "            <div class=\"box box-solid box-primary\">
               <div class=\"box-header with-border\">
                   <h3 class=\"box-title\"><a href=\"";
-            // line 48
+            // line 47
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tarefa_show", array("id" => $this->getAttribute($context["tarefa"], "id", array()))), "html", null, true);
             echo "\">";
             echo twig_escape_filter($this->env, $this->getAttribute($context["tarefa"], "titulo", array()), "html", null, true);
@@ -148,7 +150,7 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
                     <!-- Buttons, labels, and many other things can be placed here! -->
                     <!-- Here is a label for example -->
                     <span class=\"label label-default\">Lista: ";
-            // line 52
+            // line 51
             echo twig_escape_filter($this->env, $this->getAttribute($context["tarefa"], "lista", array()), "html", null, true);
             echo "</span>
                   </div><!-- /.box-tools -->
@@ -170,7 +172,7 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
                     <tr>
                     <th>Descrição</th>
                     <td>";
-            // line 71
+            // line 70
             echo twig_escape_filter($this->env, $this->getAttribute($context["tarefa"], "descricao", array()), "html", null, true);
             echo "</td>
                     </tr>
@@ -178,7 +180,7 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
                     <tr>
                     <th>Observação</th>
                     <td>";
-            // line 76
+            // line 75
             echo twig_escape_filter($this->env, $this->getAttribute($context["tarefa"], "observacao", array()), "html", null, true);
             echo "</td>
                     </tr>
@@ -186,7 +188,7 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
                     <tr>
                     <th>Situação</th>
                     <td>";
-            // line 81
+            // line 80
             echo twig_escape_filter($this->env, $this->env->getExtension('TodoList\CoreBundle\Twig\AppExtension')->situacaoFilter($this->getAttribute($context["tarefa"], "situacao", array())), "html", null, true);
             echo " </td>
                     </tr>
@@ -194,7 +196,7 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
                     <tr>
                     <th>Prazo de Conclusão</th>
                     <td>";
-            // line 86
+            // line 85
             if ($this->getAttribute($context["tarefa"], "pzconclusao", array())) {
                 echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["tarefa"], "pzconclusao", array()), "d/m/Y H:i:s"), "html", null, true);
             }
@@ -204,7 +206,7 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
                     <tr>
                     <th>Criado</th>
                     <td>";
-            // line 91
+            // line 90
             if ($this->getAttribute($context["tarefa"], "criadoEm", array())) {
                 echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["tarefa"], "criadoEm", array()), "d/m/Y H:i:s"), "html", null, true);
             }
@@ -214,7 +216,7 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
                     <tr>
                     <th>Atualizado</th>
                     <td>";
-            // line 96
+            // line 95
             if ($this->getAttribute($context["tarefa"], "atualizadoEm", array())) {
                 echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["tarefa"], "atualizadoEm", array()), "d/m/Y H:i:s"), "html", null, true);
             }
@@ -223,11 +225,11 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
 
                     <td>
                         <a class=\"btn btn-primary\" href=\"";
-            // line 100
+            // line 99
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tarefa_show", array("id" => $this->getAttribute($context["tarefa"], "id", array()))), "html", null, true);
             echo "\"><small>Mostrar</small></a>
                         <a class=\"btn btn-primary\" href=\"";
-            // line 101
+            // line 100
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tarefa_edit", array("id" => $this->getAttribute($context["tarefa"], "id", array()))), "html", null, true);
             echo "\"><small>Editar</small></a>
 
@@ -243,10 +245,10 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['tarefa'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 111
+        // line 110
         echo "
     <a class=\"btn btn-success\" href=\"";
-        // line 112
+        // line 111
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tarefa_new");
         echo "\">Criar nova Tarefa</a>
 
@@ -254,7 +256,7 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
 
 ";
         
-        $__internal_5d40ba3ee6815c8a1fb8934ccd1d8541e6d3bef7c79cf3ce669804d23412f183->leave($__internal_5d40ba3ee6815c8a1fb8934ccd1d8541e6d3bef7c79cf3ce669804d23412f183_prof);
+        $__internal_7e40e0a355aed831cbf888ec07d3302f650921ce6bd396cf79cce2b3a6348104->leave($__internal_7e40e0a355aed831cbf888ec07d3302f650921ce6bd396cf79cce2b3a6348104_prof);
 
     }
 
@@ -270,7 +272,7 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
 
     public function getDebugInfo()
     {
-        return array (  250 => 112,  247 => 111,  231 => 101,  227 => 100,  218 => 96,  208 => 91,  198 => 86,  190 => 81,  182 => 76,  174 => 71,  152 => 52,  143 => 48,  139 => 46,  135 => 45,  127 => 40,  120 => 35,  106 => 27,  98 => 21,  94 => 20,  79 => 7,  73 => 6,  61 => 4,  49 => 3,  37 => 2,  11 => 1,);
+        return array (  252 => 111,  249 => 110,  233 => 100,  229 => 99,  220 => 95,  210 => 90,  200 => 85,  192 => 80,  184 => 75,  176 => 70,  154 => 51,  145 => 47,  141 => 45,  137 => 44,  126 => 35,  116 => 31,  112 => 30,  106 => 27,  98 => 21,  94 => 20,  79 => 7,  73 => 6,  61 => 4,  49 => 3,  37 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -310,10 +312,10 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
                     </span>
                 <input type=\"checkbox\" value=\"\">
                 <span class=\"text\">{{ tarefa.titulo }}</span>
-                <small class=\"label label-info\"><i class=\"fa fa-clock-o\"></i> 4 hours</small>
+                <!-- <small class=\"label label-info\"><i class=\"fa fa-clock-o\"></i> 4 hours</small> -->
                 <div class=\"tools\">
-                  <i class=\"fa fa-edit\"></i>
-                  <i class=\"fa fa-trash-o\"></i>
+                  <i class=\"fa fa-edit\" ><a href=\"{{ path('tarefa_show', { 'id': tarefa.id }) }}\">  </a><small>Editar</small> </i>
+                  <i class=\"fa fa-eye\"><a href=\"{{ path('tarefa_edit', { 'id': tarefa.id }) }}\"> </a><small>Mostrar</small> </i>
                 </div>
               </li>
             {% endfor %}
@@ -322,11 +324,10 @@ class __TwigTemplate_38c29ccbc8cfdc3103a66db3b0d78211034223b8f88bf82308b4b08c0fc
         </div>
         <!-- /.box-body -->
         <div class=\"box-footer clearfix no-border\">
-          <button type=\"button\" class=\"btn btn-default pull-right\" href=\"{{ path('tarefa_new') }}\"><i class=\"fa fa-plus\"></i> Add item</button>
+          <button type=\"button\" class=\"btn btn-default pull-right\"><i class=\"fa fa-plus\"></i> Add item</button>
         </div>
       </div>
     <!-- <h1>Tarefas list</h1> -->
-
         {% for tarefa in tarefas %}
             <div class=\"box box-solid box-primary\">
               <div class=\"box-header with-border\">

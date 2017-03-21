@@ -27,8 +27,8 @@
                 <span class="text">{{ tarefa.titulo }}</span>
                 <!-- <small class="label label-info"><i class="fa fa-clock-o"></i> 4 hours</small> -->
                 <div class="tools">
-                  <i class="fa fa-edit"></i>
-                  <i class="fa fa-trash-o"></i>
+                  <i class="fa fa-edit" ><a href="{{ path('tarefa_show', { 'id': tarefa.id }) }}">  </a><small>Editar</small> </i>
+                  <i class="fa fa-eye"><a href="{{ path('tarefa_edit', { 'id': tarefa.id }) }}"> </a><small>Mostrar</small> </i>
                 </div>
               </li>
             {% endfor %}
@@ -41,7 +41,6 @@
         </div>
       </div>
     <!-- <h1>Tarefas list</h1> -->
-
         {% for tarefa in tarefas %}
             <div class="box box-solid box-primary">
               <div class="box-header with-border">
